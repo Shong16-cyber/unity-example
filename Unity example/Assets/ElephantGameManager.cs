@@ -44,7 +44,7 @@ public class ElephantGameManager : MonoBehaviour
         currentTile = candidates[Random.Range(0, candidates.Count)];
 
         // 移动小象
-        TriggerElephantJump();
+        //TriggerElephantJump();
     }
 
     public void TriggerElephantJump()
@@ -93,6 +93,7 @@ public class ElephantGameManager : MonoBehaviour
                 Debug.Log("🎉 成功通关！");
             else
                 StartNewStep();
+                TriggerElephantJump();
         }
         else
         {

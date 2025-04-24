@@ -321,7 +321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &512315962
 Transform:
   m_ObjectHideFlags: 0
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 543929252}
   - component: {fileID: 543929251}
   m_Layer: 0
-  m_Name: Tile 5
+  m_Name: Tile 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -730,7 +730,7 @@ GameObject:
   - component: {fileID: 699723964}
   - component: {fileID: 699723963}
   m_Layer: 0
-  m_Name: Tile 3
+  m_Name: Tile 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1006,10 +1006,10 @@ MonoBehaviour:
   tiles:
   - {fileID: 1575880411}
   - {fileID: 543467018}
-  - {fileID: 699723964}
   - {fileID: 894436495}
-  - {fileID: 543929252}
   - {fileID: 1653439124}
+  - {fileID: 699723964}
+  - {fileID: 543929252}
   elephantYOffset: 0.2
   jumpHeight: 0.5
   jumpDuration: 0.5
@@ -1100,7 +1100,7 @@ GameObject:
   - component: {fileID: 894436495}
   - component: {fileID: 894436494}
   m_Layer: 0
-  m_Name: Tile 4
+  m_Name: Tile 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1744,7 +1744,7 @@ GameObject:
   - component: {fileID: 1653439124}
   - component: {fileID: 1653439123}
   m_Layer: 0
-  m_Name: Tile 6
+  m_Name: Tile 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
